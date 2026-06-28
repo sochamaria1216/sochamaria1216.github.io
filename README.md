@@ -1,4 +1,4 @@
-# Compliment Generator3 <3
+# Compliment Generator <3
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -11,12 +11,10 @@
             background-color: #f4f4f9;
             color: #333;
             display: flex;
-            /* CHANGED: Aligns the content to the left (start) instead of center */
             justify-content: flex-start; 
             align-items: left;
             min-height: 100vh;
             margin: 0;
-            /* ADDED: Keeps the box from sticking directly to the very edge of the screen */
             padding-left: 2rem; 
             box-sizing: border-box;
         }
