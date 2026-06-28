@@ -110,6 +110,9 @@ function generateWord() {
     document.getElementById('resultDisplay').innerText = chosenWord;
 }
 </script>
+</body>
+</html>
+
 
 <--! NEW LINE -->
 
@@ -225,4 +228,6 @@ function generateWord() {
     document.getElementById('resultDisplay').innerText = chosenWord;
 }
 </script>
+</body>
+</html>
 
