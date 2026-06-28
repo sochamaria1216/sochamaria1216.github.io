@@ -11,10 +11,14 @@
             background-color: #f4f4f9;
             color: #333;
             display: flex;
-            justify-content: center;
+            /* CHANGED: Aligns the content to the left (start) instead of center */
+            justify-content: flex-start; 
             align-items: center;
             min-height: 100vh;
             margin: 0;
+            /* ADDED: Keeps the box from sticking directly to the very edge of the screen */
+            padding-left: 2rem; 
+            box-sizing: border-box;
         }
         .container {
             background: white;
