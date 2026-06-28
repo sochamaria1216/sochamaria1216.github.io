@@ -129,8 +129,8 @@ function generateWord() {
             background-color: #f4f4f9;
             color: #333;
             display: flex;
-            justify-content: center;
-            align-items: center;
+            justify-content: left;
+            align-items: right;
             min-height: 100vh;
             margin: 0;
         }
