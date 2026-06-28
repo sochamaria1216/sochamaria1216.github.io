@@ -1,4 +1,4 @@
-# Compliment Generator7 <3
+# Compliment Generator8 <3
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -89,8 +89,8 @@
     <label for="wordPool">Enter your words (separated by commas):</label>
     <textarea id="wordPool" placeholder="e.g. Apple, Banana, Orange, Pineapple, Grape">Apple, Banana, Orange, Pineapple, Grape</textarea>
     
-    <label for="wordPool">Enter your words2 (separated by commas):</label>
-    <textarea id="wordPool" placeholder="e.g. Apple2, Banana2, Orange2, Pineapple2, Grape2">Apple, Banana, Orange, Pineapple, Grape</textarea>
+    <label for="wordPool2">Enter your words2 (separated by commas):</label>
+    <textarea id="wordPool2" placeholder="e.g. Apple2, Banana2, Orange2, Pineapple2, Grape2">Apple, Banana, Orange, Pineapple, Grape</textarea>
     
     <button onclick="generateWords()">Generate 2 Random Words</button>
     
@@ -103,8 +103,12 @@
 <script>
 function generateWords() {
     const inputText = document.getElementById('wordPool').value;
+    const inputText2 = document.getElementById('wordPool2').value;
     
     const wordList = inputText.split(',')
+                              .map(word => word.trim())
+                              .filter(word => word.length > 0);
+    const wordList2 = inputText.split(',')
                               .map(word => word.trim())
                               .filter(word => word.length > 0);
     
@@ -119,12 +123,9 @@ function generateWords() {
     const index1 = Math.floor(Math.random() * wordList.length);
     const word1 = wordList[index1];
     
-    // Remove the chosen word from a temporary list so we don't pick it twice
-    const remainingWords = wordList.filter((_, index) => index !== index1);
-    
     // Pick the second random word from the remaining options
-    const index2 = Math.floor(Math.random() * remainingWords.length);
-    const word2 = remainingWords[index2];
+    const index2 = Math.floor(Math.random() * wordList2.length);
+    const word2 = wordList2[index2];
     
     // Output the words to their respective text boxes
     document.getElementById('resultDisplay1').innerText = word1;
