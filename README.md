@@ -1,4 +1,4 @@
-# Compliment Generator6 <3
+# Compliment Generator7 <3
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -88,6 +88,9 @@
     
     <label for="wordPool">Enter your words (separated by commas):</label>
     <textarea id="wordPool" placeholder="e.g. Apple, Banana, Orange, Pineapple, Grape">Apple, Banana, Orange, Pineapple, Grape</textarea>
+    
+    <label for="wordPool">Enter your words2 (separated by commas):</label>
+    <textarea id="wordPool" placeholder="e.g. Apple2, Banana2, Orange2, Pineapple2, Grape2">Apple, Banana, Orange, Pineapple, Grape</textarea>
     
     <button onclick="generateWords()">Generate 2 Random Words</button>
     
