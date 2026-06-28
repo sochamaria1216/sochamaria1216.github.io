@@ -1,4 +1,4 @@
-# Compliment Generator <3
+# Compliment Generator5 <3
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -11,8 +11,8 @@
             background-color: #f4f4f9;
             color: #333;
             display: flex;
-            justify-content: flex-start; 
-            align-items: left;
+            justify-content: flex-end; 
+            align-items: center;
             min-height: 100vh;
             margin: 0;
             padding-left: 2rem; 
