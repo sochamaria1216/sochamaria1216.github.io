@@ -1,4 +1,3 @@
-sochamaria1216.github.io
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -110,6 +109,46 @@ function generateWord() {
     document.getElementById('resultDisplay').innerText = chosenWord;
 }
 </script>
+
+<div class="container">
+    <h2>Word Generator</h2>
+    
+    <label for="wordPool">Enter your words (separated by commas):</label>
+    <textarea id="wordPool" placeholder="e.g. Apple2, Banana2, Orange2, Pineapple2, Grape2">Apple2, Banana2, Orange2, Pineapple2, Grape</textarea>
+    
+    <button onclick="generateWord()">Generate Random Word</button>
+    
+    <div class="result-box" id="resultDisplay">Click the button to start!</div>
+</div>
+
+<script>
+function generateWord() {
+    // 1. Get the text from the textarea
+    const inputText = document.getElementById('wordPool').value;
+    
+    // 2. Split the text into an array using commas, and clean up extra spaces
+    const wordList = inputText.split(',')
+                              .map(word => word.trim())
+                              .filter(word => word.length > 0);
+    
+    // 3. Handle the edge case where the box is empty
+    if (wordList.length === 0) {
+        document.getElementById('resultDisplay').innerText = "❌ Please enter some words first!";
+        return;
+    }
+    
+    // 4. Pick a random index using the formula: Math.floor(Math.random() * length)
+    const randomIndex = Math.floor(Math.random() * wordList.length);
+    const chosenWord = wordList[randomIndex];
+    
+    // 5. Display the chosen word on the screen
+    document.getElementById('resultDisplay').innerText = chosenWord;
+}
+</script>
+
+</body>
+</html>
+
 
 </body>
 </html>
