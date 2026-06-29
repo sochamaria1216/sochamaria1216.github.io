@@ -1,4 +1,4 @@
-# Compliment Generator8 <3
+# Compliment Generator9 <3
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -108,7 +108,7 @@ function generateWords() {
     const wordList = inputText.split(',')
                               .map(word => word.trim())
                               .filter(word => word.length > 0);
-    const wordList2 = inputText.split(',')
+    const wordList2 = inputText2.split(',')
                               .map(word => word.trim())
                               .filter(word => word.length > 0);
     
