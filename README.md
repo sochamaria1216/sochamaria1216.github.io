@@ -1,4 +1,4 @@
-# Compliment Generator9 <3
+# Compliment Generator <3
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -87,16 +87,18 @@
     <h2>Word Generator</h2>
     
     <label for="wordPool">Enter your words (separated by commas):</label>
-    <textarea id="wordPool" placeholder="e.g. Apple, Banana, Orange, Pineapple, Grape">Apple, Banana, Orange, Pineapple, Grape</textarea>
+    <textarea id="wordPool" placeholder="e.g. Apple, Banana, Orange, Pineapple, Grape">
+    Amazing, Stunning, Gorgeous, Beautiful, Hot, Sexy</textarea>
     
     <label for="wordPool2">Enter your words2 (separated by commas):</label>
-    <textarea id="wordPool2" placeholder="e.g. Apple2, Banana2, Orange2, Pineapple2, Grape2">Apple2, Banan2a, Orange2, Pineapple2, Grape2</textarea>
+    <textarea id="wordPool2" placeholder="e.g. Apple2, Banana2, Orange2, Pineapple2, Grape2">
+    Body, Smile, Legs, Thighs, Hair, Eyes, Ass, Boobs</textarea>
     
     <button onclick="generateWords()">Generate 2 Random Words</button>
     
     <div class="results-container">
-        <div class="result-box" id="resultDisplay1">Word 1</div>
-        <div class="result-box" id="resultDisplay2">Word 2</div>
+        <div class="result-box" id="resultDisplay1">Adjective</div>
+        <div class="result-box" id="resultDisplay2">Noun</div>
     </div>
 </div>
 
