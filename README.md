@@ -84,7 +84,7 @@
 <body>
 
 <div class="container">
-    <h2>Word Generator</h2>
+    <h2>Please Compliment Maria</h2>
     
     <label for="wordPool">Enter your extra adjectives (separated by commas):</label>
     <textarea id="wordPool" placeholder="e.g. Apple, Banana, Orange, Pineapple, Grape"> Amazing, Stunning, Gorgeous, Beautiful, Hot, Sexy</textarea>
