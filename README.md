@@ -90,7 +90,7 @@
     <textarea id="wordPool" placeholder="e.g. Apple, Banana, Orange, Pineapple, Grape">Apple, Banana, Orange, Pineapple, Grape</textarea>
     
     <label for="wordPool2">Enter your words2 (separated by commas):</label>
-    <textarea id="wordPool2" placeholder="e.g. Apple2, Banana2, Orange2, Pineapple2, Grape2">Apple, Banana, Orange, Pineapple, Grape</textarea>
+    <textarea id="wordPool2" placeholder="e.g. Apple2, Banana2, Orange2, Pineapple2, Grape2">Apple2, Banan2a, Orange2, Pineapple2, Grape2</textarea>
     
     <button onclick="generateWords()">Generate 2 Random Words</button>
     
