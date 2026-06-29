@@ -1,4 +1,4 @@
-# Compliment Generator2 <3
+# Compliment Generator <3
 
 <html lang="en">
 <head>
