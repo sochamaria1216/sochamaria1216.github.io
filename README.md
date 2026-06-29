@@ -87,10 +87,10 @@
     <h2>Please Compliment Maria</h2>
     
     <label for="wordPool">Enter your extra adjectives (separated by commas):</label>
-    <textarea id="wordPool" placeholder="e.g. Apple, Banana, Orange, Pineapple, Grape"> Amazing, Stunning, Gorgeous, Beautiful, Hot, Sexy</textarea>
+    <textarea id="wordPool" placeholder="e.g. Apple, Banana, Orange, Pineapple, Grape"> Amazing, Stunning, Gorgeous, Beautiful, Great, Hot, Sexy</textarea>
     
     <label for="wordPool2">Enter your extra nouns (separated by commas):</label>
-    <textarea id="wordPool2" placeholder="e.g. Apple2, Banana2, Orange2, Pineapple2, Grape2"> Body, Smile, Legs, Thighs, Hair, Eyes, Ass, Boobs</textarea>
+    <textarea id="wordPool2" placeholder="e.g. Apple2, Banana2, Orange2, Pineapple2, Grape2"> Body, Smile, Legs, Thighs, Hair, Eyes, Ass, Boobs, Personality, Kindness, Strength</textarea>
     
     <button onclick="generateWords()">Generate Compliment</button>
     
