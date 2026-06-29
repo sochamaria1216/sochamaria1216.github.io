@@ -8,7 +8,7 @@
     <style>
         body {
             font-family: system-ui, -apple-system, sans-serif;
-            background-color: #50a67e;
+            background-color: #66cc9c;
             color: #333;
             display: flex;
             justify-content: flex-start; 
