@@ -1,4 +1,4 @@
-# Compliment Generator <3
+# Compliment Generator2 <3
 
 <html lang="en">
 <head>
@@ -12,7 +12,7 @@
             color: #333;
             display: flex;
             justify-content: flex-start; 
-            align-items: center;
+            align-items: left;
             min-height: 100vh;
             margin: 0;
             padding-left: 2rem; 
