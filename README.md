@@ -102,6 +102,8 @@
 </div>
 
 <script>
+const colors = ['#e8f8f5', '#eaf2f8', '#fef9e7', '#f4ecf7', '#fbeee6', '#eaecee', '#e8f6f3'];
+    
 function generateWords() {
     const inputText = document.getElementById('wordPool').value;
     const inputText2 = document.getElementById('wordPool2').value;
@@ -131,6 +133,9 @@ function generateWords() {
     // Output the words to their respective text boxes
     document.getElementById('resultDisplay1').innerText = word1;
     document.getElementById('resultDisplay2').innerText = word2;
+
+    const randomColor = colors[Math.floor(Math.random() * colors.length)];
+    document.body.style.backgroundColor = randomColor;
 }
 </script>
 
